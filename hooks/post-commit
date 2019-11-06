@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "Hello."
+scp printer.cfg pi@octopi.local:~/printer.cfg
