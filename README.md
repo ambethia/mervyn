@@ -5,3 +5,9 @@ Printer config for my Voron printer, Mervyn.
 ```
 git config core.hooksPath ./hooks
 ```
+
+### KISSlicer
+
+```
+ln -s ~/Projects/mervyn/KISS ~/Applications/KISS
+```
