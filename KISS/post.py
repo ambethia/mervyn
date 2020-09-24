@@ -5,7 +5,7 @@
 #	Y:\gcodes is a mounted netdrive on my worklaptop (NFS on minipc)
 
 accel_a = 2000	#	acceleration on perimeters and top
-accel_b = 4000	#	acceleration everything else
+accel_b = 3200	#	acceleration everything else
 
 square_a = 5	#	square_corner_velocity on perimeters and top
 square_b = 5	#	square_corner_velocity everything else
@@ -16,6 +16,7 @@ fast_accel = [ 'Travel Path', 'Solid Path', 'Infill Path', 'Crown Path' ]
 #	extra extrusion?
 moar_extrusions = [ 'Crown Path' ]
 moar_multipler = 1.0025 #	helps the loops to overlap and generate stronger parts - 2.2 importance
+
 #	less extrusuion?
 less_extrusions = [ ]
 less_multipler = 1.0
