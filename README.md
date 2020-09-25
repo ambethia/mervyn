@@ -14,4 +14,4 @@ ln -s ~/Projects/mervyn/KISS ~/Applications/KISS
 
 ### PrusaSlicer
 
-TODO: Add notes on how to set up PrusaSlicer.
+TODO: Add notes on how to set up PrusaSlicer. Please.
