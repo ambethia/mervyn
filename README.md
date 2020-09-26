@@ -6,6 +6,12 @@ Printer config for my Voron 3D printer, Mervyn.
 git config core.hooksPath ./hooks
 ```
 
+Pull config:
+
+```
+scp pi@octopi.local:~/printer.cfg printer.cfg
+```
+
 ### KISSlicer
 
 ```
