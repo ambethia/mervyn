@@ -81,6 +81,6 @@ with open( sys.argv[1] , 'w') as f:
 	for line in output:
 		f.write(line)
 
-os.system('curl -k -H "X-Api-Key: F9E5032C06DC4A3898D4EAEBA6E94729" -F "select=false" -F "print=false" -F "file=@' + sys.argv[1] + '" "http://octopi.local/api/files/local"')
+os.system('curl -k -H "X-Api-Key: NULL" -F "select=false" -F "print=false" -F "file=@' + sys.argv[1] + '" "http://mervyn.local/api/files/local"')
 
 exit(0)
